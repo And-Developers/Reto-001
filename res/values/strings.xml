@@ -3,6 +3,9 @@
     <string name="app_name">reto001</string>
     <string name="group">AndDevelopers</string>
     <string name="reto">Reto-001</string>
+    <string name="group_reto">AndDevelopers Reto-001</string>
     <string name="isaac_label">Isaac</string>
+    <string name="isaac_title">Activity Isaac</string>
     <string name="carlos_label">Carlos</string>
+    <string name="carlos_title">Activity Carlos</string>
 </resources>
