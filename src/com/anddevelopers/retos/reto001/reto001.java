@@ -1,6 +1,6 @@
-package com.anddevelopers.retos;
+package com.anddevelopers.retos.reto001;
 
-import com.anddevelopers.retos.R;
+import com.anddevelopers.retos.reto001.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Button;
@@ -25,7 +25,7 @@ public class reto001 extends Activity {
         	public void onClick(final View v){
         		Log.i(TAG, "button_isaac: onClick invoked");
         		Intent intent = new Intent(reto001.this, Isaac.class);
-        		reto001.this.startActivity(intent);
+        		startActivity(intent);
         	}
         });
         
@@ -33,7 +33,7 @@ public class reto001 extends Activity {
         	public void onClick(final View v){
         		Log.i(TAG, "button_carlos: onClick invoked");
         		Intent intent = new Intent(reto001.this, Carlos.class);
-        		reto001.this.startActivity(intent);
+        		startActivity(intent);
         	}
         });
     }
