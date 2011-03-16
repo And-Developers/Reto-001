@@ -18,8 +18,10 @@ public final class R {
     }
     public static final class id {
         public static final int about_content=0x7f060000;
-        public static final int carlos_button=0x7f060002;
-        public static final int isaac_button=0x7f060001;
+        public static final int carlos_button=0x7f060004;
+        public static final int isaac_button=0x7f060003;
+        public static final int isaac_main_button1=0x7f060001;
+        public static final int isaac_main_button2=0x7f060002;
     }
     public static final class layout {
         public static final int carlos=0x7f030000;

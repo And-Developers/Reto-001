@@ -1,13 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ScrollView
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
 	xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:padding="10dip">
-    <TextView
-    	android:id="@+id/about_content"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:text="@string/isaac_title"
-    />
-</ScrollView>
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Toast Notification"
+            android:padding="3dip" />
+        <Button
+			android:id="@+id/isaac_main_button1"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Push to launch" />
+	</TableRow>
+    
+    <TableRow>    
+        <TextView
+            android:layout_column="1"
+            android:text="Status Bar Notification"
+            android:padding="3dip" />
+        <Button
+			android:id="@+id/isaac_main_button2"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Push to launch" />
+	</TableRow>
+	
+	<View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+        
+    <TableRow>    
+        <TextView
+            android:layout_column="1"
+            android:text="Web View"
+            android:padding="3dip" />
+        <Button
+			android:id="@+id/isaac_main_button2"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Push to view" />
+	</TableRow>
+	
+	<TableRow>    
+        <TextView
+            android:layout_column="1"
+            android:text="Tab Layout"
+            android:padding="3dip" />
+        <Button
+			android:id="@+id/isaac_main_button2"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Push to view" />
+	</TableRow>
+	
+	<View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+        
+	<TableRow>    
+        <TextView
+            android:layout_column="1"
+            android:text="Exit"
+            android:padding="3dip" />
+        <Button
+			android:id="@+id/isaac_main_button2"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Push to exit" />
+	</TableRow>
+    
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+        
+</TableLayout>
