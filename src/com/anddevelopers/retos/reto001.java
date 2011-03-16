@@ -1,21 +1,40 @@
 package com.anddevelopers.retos;
 
+import com.anddevelopers.retos.R;
 import android.app.Activity;
-import android.content.DialogInterface;
-import android.content.DialogInterface.OnClickListener;
-import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.view.View;
+import android.app.AlertDialog;
+import android.content.Intent;
+import android.content.Context;
+import android.util.Log;
 
-public class reto001 extends Activity{
+public class reto001 extends Activity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        
-        View isaac_Button = findViewById(R.id.isaac_button);
-        View carlos_Button = findViewById(R.id.carlos_button);
+        final String TAG = "reto001";
                 
+        final Button button_carlos = (Button) findViewById(R.id.carlos_button);
+        final Button button_isaac = (Button) findViewById(R.id.isaac_button);
+        
+        button_isaac.setOnClickListener(new Button.OnClickListener(){
+        	public void onClick(final View v){
+        		Log.i(TAG, "button_isaac: onClick invoked");
+        		Intent intent = new Intent(reto001.this, Isaac.class);
+        		reto001.this.startActivity(intent);
+        	}
+        });
+        
+        button_carlos.setOnClickListener(new Button.OnClickListener(){
+        	public void onClick(final View v){
+        		Log.i(TAG, "button_carlos: onClick invoked");
+        		Intent intent = new Intent(reto001.this, Carlos.class);
+        		reto001.this.startActivity(intent);
+        	}
+        });
     }
 }
