@@ -39,7 +39,7 @@
             android:text="Web View"
             android:padding="3dip" />
         <Button
-			android:id="@+id/isaac_main_button2"
+			android:id="@+id/isaac_main_button3"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:text="Push to view" />
@@ -51,7 +51,7 @@
             android:text="Tab Layout"
             android:padding="3dip" />
         <Button
-			android:id="@+id/isaac_main_button2"
+			android:id="@+id/isaac_main_button4"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:text="Push to view" />
@@ -67,7 +67,7 @@
             android:text="Exit"
             android:padding="3dip" />
         <Button
-			android:id="@+id/isaac_main_button2"
+			android:id="@+id/isaac_main_button5"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:text="Push to exit" />
